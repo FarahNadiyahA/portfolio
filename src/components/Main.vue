@@ -1,60 +1,59 @@
 <template>
+  
   <div class="hero">
     <!-- <img class="background" src="@/assets/img/background.svg" />  Shadows version -->
     <div></div>
     <div class="hero__container">
       <div class="hero__main">
-        <h5 class="hero__title">Tomasz Swierad</h5>
-        <h3 class="hero__sub-title">Junior Front-End Developer</h3>
+        <h5 class="hero__title">Farah Nadiyah Aulia</h5>
+        <h3 class="hero__sub-title">Teknologi Informasi-Universitas Brawijaya</h3>
         <a
           class="hero__btn"
-          href="mailto:endurophine@gmail.com"
+          href="mailto:farahaulianad@gmail.com"
           subject="subject text"
           target="__blank"
-          title="Tomasz Świerad e-mail"
+          title="Farah Nadiyah e-mail"
           >Message Me</a
         >
+        <h3 class="hero__sub-title"></h3>
+        <h3 class="hero__sub--title">I'm Farah Nadiyah Aulia, UI/UX Designer. 
+          I'm specialist in UI design and UX writing. 
+          I can managing day to day team operation with considerable experience to read trends. </h3>
       </div>
       <div class="hero__footer">
         <li class="hero__links">
+          <!--
           <ul>
             <a
               class="hero__link"
               href="https://drive.google.com/file/d/1JMHQ70LbFCwserHUpR5q7XoI68ul7MFv/view"
               target="__blank"
-              title="Tomasz Świerad Resume"
+              title="Farah Nadiyah Resume"
               >Resume</a
             >
           </ul>
+          -->
           <ul>
             <a
               class="hero__link"
-              href="https://github.com/TomSWD"
+              href="https://github.com/FarahNadiyahA"
               target="__blank"
-              title="Tomasz Świerad GitHub"
+              title="Farah Nadiyah GitHub"
               >Github</a
             >
           </ul>
           <ul>
             <a
               class="hero__link"
-              href="https://www.linkedin.com/in/tomasz-swierad/"
+              href="https://www.linkedin.com/"
               target="__blank"
-              title="Tomasz Świerad LinkedIn"
+              title="Farah Nadiyah LinkedIn"
               >LinkedIn</a
             >
           </ul>
-          <ul>
-            <a
-              class="hero__link"
-              href="https://calendly.com/tomswd"
-              target="__blank"
-              title="Tomasz Świerad Schedule a call"
-              >Schedule a call</a
-            >
-          </ul>
+          
         </li>
-        <div class="hero__copyright">© 2021 Tomasz Świerad</div>
+        <div class="hero__copyright">© 2023 Farah Nadiyah Aulia</div>
       </div>
     </div>
   </div>
@@ -75,6 +74,10 @@ export default {
   object-fit: cover;
 }
 .hero__container {
+  background: radial-gradient(circle at top left, #000000, transparent), 
+              radial-gradient(circle at top right, #000000, transparent), 
+              radial-gradient(circle at bottom, #000000, transparent),
+              #90bde4;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -95,12 +98,22 @@ export default {
   align-items: center;
 }
 .hero__title {
-  font-size: 72px;
+  font-size: 64px;
   font-weight: 700;
   line-height: 91px;
 }
 .hero__sub-title {
-  font-size: 36px;
+  background: linear-gradient(45deg, #6202fd, #00ffff, #f700ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 45px;
+  padding-top: 10px;
+}
+.hero__sub--title {
+  
+  font-size: 18px;
   font-weight: 400;
   line-height: 45px;
   padding-top: 10px;
@@ -111,7 +124,7 @@ export default {
   justify-content: center;
   width: 120px;
   height: 40px;
-  background-color: #ff8e00;
+  background-color: #385486e3;
   border-radius: 8px;
   color: #fff;
   font-size: 14px;
@@ -135,7 +148,7 @@ export default {
   max-width: 536px;
   width: 100%;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 18px;
   font-weight: 400;
 }
